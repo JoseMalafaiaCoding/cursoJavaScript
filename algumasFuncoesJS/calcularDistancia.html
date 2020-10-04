@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var points = [{x:0,y:0},{x:1,y:1}]
+        points.dist = function (){
+            var p1 = this[0];
+            var p2 = this[1];
+            var a = p2.x - p1.x;
+            var b = p2.y - p1.y;
+            return Math.sqrt(a*a + b*b);
+        };
+        console.log(points.dist());
+        function Point(x,y){
+            this.x = x;
+            this.y = y;
+        }
+
+        var p = new Point(1,1);
+        Point.prototype.r = function(){
+            return Math.sqrt(this.x * this.x + this.y * this.y);
+        };
+        console.log(p.r());
+    </script>
+</body>
+</html>
