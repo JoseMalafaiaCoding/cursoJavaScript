@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onde a pessoa mora</title>
+</head>
+<script>
+    function descobrir(){
+        var pais = document.getElementById('txtpais').value;
+        var res = document.getElementById('resultado');
+        res.innerHTML = `Seu país é: ${pais}`
+        if(pais == 'Brasil' || pais == 'brasil' || pais == 'br'){
+            res.innerHTML += `<p>Você não é estrangeiro!</p>`;
+        }
+    }
+</script>
+<body>
+    <h1>Descobre se a pessoa é estrangeira ou brasileira</h1>
+    <p>De qual país é você?</p><input type="text" name="txtpais" id="txtpais">
+    <input type="" value="Descobrir" onclick="descobrir()">
+    <div id="resultado"></div>
+</body>
+</html>
