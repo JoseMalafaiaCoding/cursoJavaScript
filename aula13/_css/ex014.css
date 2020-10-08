@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: block;
+    position: relative;
+    color: white;
+}
+
+div.conteudo-pagina{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+div.conteudo-pagina img.imgDia{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 4px black;
+}
+
+footer.rodape{
+    color: rgb(255, 255, 255);
+    
+}
+

@@ -23,5 +23,6 @@ switch (diaSem) {
         console.log('Hoje é Sábado');
         break;
     default:
+        console.log('[Erro]');
         break;
 }
