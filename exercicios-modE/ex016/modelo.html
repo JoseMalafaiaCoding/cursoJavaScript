@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header id="cabecalho"><h1>Título do modelo</h1></header>
+    <section id="secao-conteudo">
+        <div>
+            <p>
+                <label for="iptInicio">Início:</label><input type="number" name="txtInicio" id="iptInicio">
+            </p>
+            <p>
+                <label for="iptFim">Fim:</label><input type="number" name="txtFim" id="iptFim">
+            </p>
+            <p>
+                <label for="">Passo:</label><input type="number" name="txtPasso" id="iptPasso">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar();">
+            </p>
+        </div>
+        <div id="divRes"></div>
+    </section>
+    <footer>&copy; Rodapé</footer>
+    <script src="script.js"></script>
+</body>
+</html>

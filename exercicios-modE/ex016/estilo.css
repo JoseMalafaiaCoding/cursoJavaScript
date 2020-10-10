@@ -1,0 +1,40 @@
+@charset "utf-8";
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(59, 105, 173);
+    font: normal 15pt Arial;
+    display: block;
+
+}
+
+#cabecalho{
+    color: white;
+    font-style: oblique;
+    text-align: center;
+}
+
+#secao-conteudo{
+    margin: 50px auto 30px auto;
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+    padding-left: 20px;
+}
+
+div{
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

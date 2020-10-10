@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header id="cabecalho"><h1>Calcular Tabuada</h1></header>
+    <section id="secao-conteudo">
+        <div>
+            <p>
+                <label for="iptNum">Número: </label><input type="number" name="txtNum" id="iptNum">
+            </p>
+            <p>
+                <input type="button" value="Calcular" onclick="calcularTabuada();">
+            </p>
+        </div>
+        <div>
+            <p>
+                <select name="tabuada" id="selTab" size="10">
+                    <option>Digite um numero:</option>
+                </select>
+            </p>
+        </div>
+    </section>
+    <footer>&copy; Rodapé</footer>
+    <script src="script.js"></script>
+</body>
+</html>
