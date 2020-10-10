@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    font: normal 15pt Arial;
+    background-color: rgb(53, 134, 211);
+}
+
+header#cabecalho{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+section#conteudo-principal{
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(58, 58, 58);
+    background-color: white;
+}
+
+section#conteudo-principal div{
+    height: auto;
+    width: 100%;
+}
+
+select#selAdd{
+    width: auto;
+    height: 150px;
+}
+
+footer#rodape{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+
